@@ -88,3 +88,19 @@ This will process the video and save the tracked video at the specified output p
 ### Video Files
 
 To test the project, you can use the example video provided in the `videos/` folder. The input video should be named **`cars.mp4`**.
+
+You can also download the sample videos from the following links:
+
+- **[Input Video (cars.mp4)](https://drive.google.com/file/d/EXAMPLE_LINK/view?usp=sharing)**: Example video file for detection.
+- **[Output Video (tracked_video.mp4)](https://drive.google.com/file/d/EXAMPLE_LINK/view?usp=sharing)**: Tracked output video after processing.
+
+---
+
+### How to Add Your Own Videos
+
+If you'd like to test your own videos, place them in the `videos/` folder and make sure to update the `INPUT_VIDEO` path in the script accordingly. If your video has a different name, change it in the code like so:
+
+```python
+INPUT_VIDEO = os.path.join("videos", "your_video.mp4")
+```
+
